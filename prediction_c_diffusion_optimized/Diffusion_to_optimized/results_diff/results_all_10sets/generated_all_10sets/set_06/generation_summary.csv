@@ -1,0 +1,6 @@
+set_id,seed,label,n,unique,diversity,mean_gc,file
+6,42,0,2000,2000,1.0,0.36197500000000005,/data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_06/zhou_unet_label_0.csv
+6,42,1,2000,2000,1.0,0.359725,/data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_06/zhou_unet_label_1.csv
+6,42,2,2000,2000,1.0,0.34636875,/data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_06/zhou_unet_label_2.csv
+6,42,3,2000,2000,1.0,0.36659375,/data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_06/zhou_unet_label_3.csv
+6,42,4,2000,2000,1.0,0.399175,/data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_06/zhou_unet_label_4.csv

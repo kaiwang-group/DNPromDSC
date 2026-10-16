@@ -1,0 +1,88 @@
+====================================================================================================
+Evaluation Set 05
+====================================================================================================
+Source set dir: /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/optimized/results_try_10sets_new_eval_psednc6_same_rule/set_05
+Output dir: /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/optimized/results_try_10sets_new_eval_psednc6_same_rule/evaluation_dnabert2_regression/set_05
+Predictor: DNABERT2-Reg/5fold_regression_ensemble
+SAMPLE_SIZE=2000
+
+Processing Class_0 ...
+   [File] /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/optimized/results_try_10sets_new_eval_psednc6_same_rule/set_05/zhou_unet_label_0.csv
+   [General] GC=0.3634 (Nat=0.3707) | GC_diff=0.0073 | Div=1.0000 | Nov=1.0000
+   [EditDist] Intra-Nat=44.0 | Intra-Gen=43.3 | Inter=43.8
+   [BioAlign] Intra-Nat=8.6% | Intra-Gen=8.8% | Inter=8.7%
+   [K-mer=4] PCC=0.9847
+   [K-mer=5] PCC=0.9762
+   [K-mer=6] PCC=0.9478
+   [Predict] Target=0 | N=2000
+   [Predict] Dist={0: 1992, 1: 7, 2: 1}
+   [Predict] Acc=0.9960
+   [Predict] MeanPred=0.0045 | MAE=0.0045
+
+Processing Class_1 ...
+   [File] /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/optimized/results_try_10sets_new_eval_psednc6_same_rule/set_05/zhou_unet_label_1.csv
+   [General] GC=0.3578 (Nat=0.3697) | GC_diff=0.0119 | Div=1.0000 | Nov=1.0000
+   [EditDist] Intra-Nat=44.8 | Intra-Gen=44.4 | Inter=44.5
+   [BioAlign] Intra-Nat=8.6% | Intra-Gen=8.7% | Inter=8.7%
+   [K-mer=4] PCC=0.9958
+   [K-mer=5] PCC=0.9892
+   [K-mer=6] PCC=0.9659
+   [Predict] Target=1 | N=2000
+   [Predict] Dist={0: 137, 1: 1685, 2: 176, 3: 2}
+   [Predict] Acc=0.8425
+   [Predict] MeanPred=1.0215 | MAE=0.1585
+
+Processing Class_2 ...
+   [File] /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/optimized/results_try_10sets_new_eval_psednc6_same_rule/set_05/zhou_unet_label_2.csv
+   [General] GC=0.3522 (Nat=0.3669) | GC_diff=0.0147 | Div=1.0000 | Nov=1.0000
+   [EditDist] Intra-Nat=45.1 | Intra-Gen=45.0 | Inter=44.8
+   [BioAlign] Intra-Nat=8.8% | Intra-Gen=9.0% | Inter=8.9%
+   [K-mer=4] PCC=0.9960
+   [K-mer=5] PCC=0.9903
+   [K-mer=6] PCC=0.9718
+   [Predict] Target=2 | N=2000
+   [Predict] Dist={1: 66, 2: 1791, 3: 143}
+   [Predict] Acc=0.8955
+   [Predict] MeanPred=2.0385 | MAE=0.1045
+
+Processing Class_3 ...
+   [File] /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/optimized/results_try_10sets_new_eval_psednc6_same_rule/set_05/zhou_unet_label_3.csv
+   [General] GC=0.3641 (Nat=0.3768) | GC_diff=0.0127 | Div=1.0000 | Nov=1.0000
+   [EditDist] Intra-Nat=45.8 | Intra-Gen=45.5 | Inter=45.9
+   [BioAlign] Intra-Nat=8.8% | Intra-Gen=9.4% | Inter=9.0%
+   [K-mer=4] PCC=0.9936
+   [K-mer=5] PCC=0.9888
+   [K-mer=6] PCC=0.9751
+   [Predict] Target=3 | N=2000
+   [Predict] Dist={2: 39, 3: 1935, 4: 26}
+   [Predict] Acc=0.9675
+   [Predict] MeanPred=2.9935 | MAE=0.0325
+
+Processing Class_4 ...
+   [File] /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/optimized/results_try_10sets_new_eval_psednc6_same_rule/set_05/zhou_unet_label_4.csv
+   [General] GC=0.3828 (Nat=0.3948) | GC_diff=0.0120 | Div=1.0000 | Nov=1.0000
+   [EditDist] Intra-Nat=46.7 | Intra-Gen=46.8 | Inter=47.1
+   [BioAlign] Intra-Nat=9.0% | Intra-Gen=10.4% | Inter=9.6%
+   [K-mer=4] PCC=0.9883
+   [K-mer=5] PCC=0.9872
+   [K-mer=6] PCC=0.9840
+   [Predict] Target=4 | N=2000
+   [Predict] Dist={3: 11, 4: 1989}
+   [Predict] Acc=0.9945
+   [Predict] MeanPred=3.9945 | MAE=0.0055
+
+====================================================================================================
+Set 05 Summary
+====================================================================================================
+Avg Pred Acc : 0.9392
+Avg Pred MAE : 0.0611
+Avg GC Diff  : 0.0117
+Avg 4-mer PCC: 0.9917
+Avg 5-mer PCC: 0.9864
+Avg 6-mer PCC: 0.9689
+Corr target-mean_pred: 0.9999
+
+Saved:
+/data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/optimized/results_try_10sets_new_eval_psednc6_same_rule/evaluation_dnabert2_regression/set_05/wrc_evaluation_report_dnabert2_regression.txt
+/data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/optimized/results_try_10sets_new_eval_psednc6_same_rule/evaluation_dnabert2_regression/set_05/wrc_evaluation_data_dnabert2_regression.csv
+/data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/optimized/results_try_10sets_new_eval_psednc6_same_rule/evaluation_dnabert2_regression/set_05/wrc_evaluation_summary_dnabert2_regression.csv

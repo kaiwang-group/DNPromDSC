@@ -1,0 +1,120 @@
+====================================================================================================
+Evaluation for generated sequences using DNABERT2-MLP predictor
+====================================================================================================
+Set dir: /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_03
+Predictor model: DNABERT2/mlp1_dataCGR_eval_zhou_unet_epoch100
+SAMPLE_SIZE=2000 | LEV_PAIRS=1000 | BIO_PAIRS=500
+DNABERT2 tokenizer max_len=100
+====================================================================================================
+
+天然序列加载完成：
+   Class_0: 12693 sequences
+   Class_1: 12693 sequences
+   Class_2: 12693 sequences
+   Class_3: 12693 sequences
+   Class_4: 12696 sequences
+
+Predictor device: cuda:0
+
+====================================================================================================
+Class  | Metric                 | Value                                         | Evaluation
+====================================================================================================
+
+Processing Class_0 ...
+   [File]     /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_03/zhou_unet_label_0.csv
+   [General]  GC: 0.3635 (Nat: 0.3707) | GC_diff: 0.0072 | Div: 1.0000 | Nov: 1.0000
+   [EditDist] Intra-Nat: 43.9 | Intra-Gen: 43.4 | Inter(Gen-Nat): 43.7
+   [BioAlign] Intra-Nat: 8.6% | Intra-Gen: 8.7% | Inter(Gen-Nat): 8.6%
+   [Verdict]  ✅ 表现良好
+   [K-mer=4] PCC: 0.9772 | R2: 0.9549
+   [K-mer=5] PCC: 0.9637 | R2: 0.9287
+   [K-mer=6] PCC: 0.9299 | R2: 0.8646
+   [Predict]  Target label=0 | N_pred=2000
+   [Predict]  Dist: {0: 1896, 1: 97, 2: 2, 3: 1, 4: 4}
+   [Predict]  Acc (pred==0): 94.80%
+   [Predict]  mean_pred: 0.06 | MAE: 0.06
+
+Processing Class_1 ...
+   [File]     /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_03/zhou_unet_label_1.csv
+   [General]  GC: 0.3575 (Nat: 0.3697) | GC_diff: 0.0122 | Div: 1.0000 | Nov: 1.0000
+   [EditDist] Intra-Nat: 44.7 | Intra-Gen: 44.3 | Inter(Gen-Nat): 44.6
+   [BioAlign] Intra-Nat: 8.5% | Intra-Gen: 8.6% | Inter(Gen-Nat): 8.7%
+   [Verdict]  ✅ 表现良好
+   [K-mer=4] PCC: 0.9940 | R2: 0.9881
+   [K-mer=5] PCC: 0.9855 | R2: 0.9712
+   [K-mer=6] PCC: 0.9575 | R2: 0.9168
+   [Predict]  Target label=1 | N_pred=2000
+   [Predict]  Dist: {0: 327, 1: 1328, 2: 322, 3: 8, 4: 15}
+   [Predict]  Acc (pred==1): 66.40%
+   [Predict]  mean_pred: 1.03 | MAE: 0.35
+
+Processing Class_2 ...
+   [File]     /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_03/zhou_unet_label_2.csv
+   [General]  GC: 0.3480 (Nat: 0.3669) | GC_diff: 0.0189 | Div: 1.0000 | Nov: 1.0000
+   [EditDist] Intra-Nat: 45.2 | Intra-Gen: 44.9 | Inter(Gen-Nat): 44.9
+   [BioAlign] Intra-Nat: 8.7% | Intra-Gen: 8.9% | Inter(Gen-Nat): 8.8%
+   [Verdict]  ✅ 表现良好
+   [K-mer=4] PCC: 0.9925 | R2: 0.9850
+   [K-mer=5] PCC: 0.9855 | R2: 0.9713
+   [K-mer=6] PCC: 0.9668 | R2: 0.9347
+   [Predict]  Target label=2 | N_pred=2000
+   [Predict]  Dist: {0: 7, 1: 309, 2: 1342, 3: 329, 4: 13}
+   [Predict]  Acc (pred==2): 67.10%
+   [Predict]  mean_pred: 2.02 | MAE: 0.34
+
+Processing Class_3 ...
+   [File]     /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_03/zhou_unet_label_3.csv
+   [General]  GC: 0.3622 (Nat: 0.3768) | GC_diff: 0.0146 | Div: 1.0000 | Nov: 1.0000
+   [EditDist] Intra-Nat: 45.7 | Intra-Gen: 46.1 | Inter(Gen-Nat): 45.8
+   [BioAlign] Intra-Nat: 8.7% | Intra-Gen: 9.0% | Inter(Gen-Nat): 8.9%
+   [Verdict]  ✅ 表现良好
+   [K-mer=4] PCC: 0.9923 | R2: 0.9847
+   [K-mer=5] PCC: 0.9879 | R2: 0.9759
+   [K-mer=6] PCC: 0.9754 | R2: 0.9515
+   [Predict]  Target label=3 | N_pred=2000
+   [Predict]  Dist: {1: 5, 2: 196, 3: 1459, 4: 340}
+   [Predict]  Acc (pred==3): 72.95%
+   [Predict]  mean_pred: 3.07 | MAE: 0.27
+
+Processing Class_4 ...
+   [File]     /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_03/zhou_unet_label_4.csv
+   [General]  GC: 0.3977 (Nat: 0.3948) | GC_diff: 0.0029 | Div: 1.0000 | Nov: 1.0000
+   [EditDist] Intra-Nat: 46.9 | Intra-Gen: 47.6 | Inter(Gen-Nat): 47.2
+   [BioAlign] Intra-Nat: 8.9% | Intra-Gen: 9.6% | Inter(Gen-Nat): 9.1%
+   [Verdict]  ✅ 表现良好
+   [K-mer=4] PCC: 0.9864 | R2: 0.9730
+   [K-mer=5] PCC: 0.9829 | R2: 0.9661
+   [K-mer=6] PCC: 0.9772 | R2: 0.9548
+   [Predict]  Target label=4 | N_pred=2000
+   [Predict]  Dist: {0: 3, 1: 3, 2: 11, 3: 76, 4: 1907}
+   [Predict]  Acc (pred==4): 95.35%
+   [Predict]  mean_pred: 3.94 | MAE: 0.06
+
+====================================================================================================
+Overall Performance Summary for one generated sequence set
+====================================================================================================
+   [Metric 1: Basic]
+   • GC Diff   : 0.0111 (<0.05 is good)
+   • Diversity : 1.0000 (>0.99 is good)
+   • Novelty   : 1.0000 (Higher = more novel)
+
+   [Metric 2: Global Similarity Gen vs Nat]
+   • Edit Distance : 45.2 (Lower = closer to real)
+   • Bio Alignment : 8.8% (Higher = closer to real)
+
+   [Metric 3: Local Motif Avg PCC]
+   • 4-mer PCC : 0.9885
+   • 5-mer PCC : 0.9811
+   • 6-mer PCC : 0.9613 (Target: >0.9)
+
+   [Metric 4: Label Controllability DNABERT2/mlp1_dataCGR_eval_zhou_unet_epoch100]
+   • Avg Acc               : 79.32%
+   • Avg MAE               : 0.2173
+   • Corr target mean_pred : 0.9997
+
+====================================================================================================
+Saved files
+====================================================================================================
+报告已生成: /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_03/wrc_evaluation_report_optimized_lightpool.txt
+逐类数据已保存: /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_03/wrc_evaluation_data_optimized_lightpool.csv
+整体汇总已保存: /data/stu1/wrc3_pycharm_project/WRC_mask_diffusion/wrc_gen_all/results_all_10sets/generated_all_10sets/set_03/wrc_evaluation_summary_optimized_lightpool.csv

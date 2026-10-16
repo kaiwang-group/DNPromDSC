@@ -1,0 +1,12 @@
+Display_Name,Metric,Mean,Std,Var,N,Percent,Status,Note
+GC Diff,GC_Diff_Mean,0.011145473833705156,0.0004945807181902247,2.4461008680555847e-07,10,False,✅,<0.05 is good
+Diversity,Diversity_Mean,1.0,0.0,0.0,10,False,✅,>0.99 is good
+Novelty,Novelty_Mean,1.0,0.0,0.0,10,False,✅,higher is better
+Edit Distance,Lev_Inter_Mean,45.30066,0.051045169539665446,0.0026056093333331892,10,False,✅,lower means closer to natural
+Bio Alignment,Bio_Inter_Mean,8.790425,0.026694529714282253,0.0007125979166666981,10,True,✅,higher means closer to natural
+4-mer PCC,K4_PCC_Mean,0.987002435771878,0.0007499992557186022,5.624988835784573e-07,10,False,✅,target >0.90
+5-mer PCC,K5_PCC_Mean,0.979504764507295,0.0010553830934441396,1.1138334739277213e-06,10,False,✅,target >0.90
+6-mer PCC,K6_PCC_Mean,0.9601759442206748,0.0014942008927560277,2.2326363079129106e-06,10,False,✅,target >0.90
+Avg Acc,Pred_Acc_Mean,0.7939499999999999,0.003705926185029717,1.3733888888888912e-05,10,True,⚠️,higher is better
+Avg MAE,Pred_MAE_Mean,0.21771,0.0041315722054550835,1.706988888888898e-05,10,False,✅,lower is better
+Corr target-mean_pred,Corr_Target_MeanPred,0.9996257855967039,0.0001117678399677308,1.2492050051052283e-08,10,False,✅,higher is better

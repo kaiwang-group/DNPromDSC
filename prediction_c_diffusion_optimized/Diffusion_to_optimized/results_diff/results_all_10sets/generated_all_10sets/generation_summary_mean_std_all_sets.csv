@@ -1,0 +1,5 @@
+metric,mean_across_all_labels_and_sets,std_across_all_labels_and_sets,var_across_all_labels_and_sets,n
+n,2000.0,0.0,0.0,50
+unique,2000.0,0.0,0.0,50
+diversity,1.0,0.0,0.0,50
+mean_gc,0.366303625,0.017831488987343148,0.00031796199950573996,50
