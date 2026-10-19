@@ -9,11 +9,11 @@ The promoter strength prediction model combines raw sequence information with ch
 ## Description
 
 The project includes the following directories and core files:
+- `prediction_c_diffusion_optimized/dataset/` contains the promoter data, five-fold datasets, and preprocessing scripts `data_processed_5fold.py` and `regression_63468_5fold.py`.
+- `prediction_c_diffusion_optimized/prediction/` contains the promoter strength prediction models and their training scripts: `model_optimized_predict.py`, `train_optimized_predict.py`, `model_dnabert2_mlp.py`, and `train_DNABert2_MLP.py`. Its `checkpoint_prediction/` and `checkpoint_dnabert2/` directories contain the corresponding checkpoints.
+- `prediction_c_diffusion_optimized/prior_condition/` contains `methods.py`, `model_optimized_predict.py`, and saved weights for extracting class-specific conditioning information from the prediction model.
+- `prediction_c_diffusion_optimized/Diffusion_to_optimized/` contains `train_diff_all.py` for diffusion training, `gen_all_10sets.py` for sequence generation, `optimized_all_10sets.py` for sequence optimization, and `evaluate_all_10sets.py` for evaluation. It also contains predictor model definitions and the `results_diff/` directory.
 
-- `dataset/` contains the promoter data, five-fold datasets, and preprocessing scripts `data_processed_5fold.py` and `regression_63468_5fold.py`.
-- `prediction/` contains the promoter strength prediction models and their training scripts: `model_optimized_predict.py`, `train_optimized_predict.py`, `model_dnabert2_mlp.py`, and `train_DNABert2_MLP.py`. Its `checkpoint_prediction/` and `checkpoint_dnabert2/` directories contain the corresponding checkpoints.
-- `prior_condition/` contains `methods.py`, `model_optimized_predict.py`, and saved weights for extracting class-specific conditioning information from the prediction model.
-- `Diffusion_to_optimized/` contains `train_diff_all.py` for diffusion training, `gen_all_10sets.py` for sequence generation, `optimized_all_10sets.py` for sequence optimization, and `evaluate_all_10sets.py` for evaluation. It also contains the predictor model definitions and the `results_diff/` directory.
 
 ## System Requirements
 
