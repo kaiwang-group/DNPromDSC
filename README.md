@@ -1,4 +1,4 @@
-# DNPromDSC: *De Novo* Promoter Design for Strength Control Using Conditional Diffusion and Sequence Optimization
+# DNPromDSC: *De Novo* Promoter Design of Strength Control Based on Conditional Diffusion Model and Sequence Optimization
 
 ## Overview
 
